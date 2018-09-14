@@ -9,6 +9,11 @@
 	  height: 500px;
 	}
 
+	#sadCheech{
+    	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    	filter: grayscale(100%);
+	}
+
 	.image {
 	  display: block;
 	  width: 100%;
@@ -63,7 +68,7 @@
 <div class="container">
   <img src="cheech.jpg" height="42" width="42"alt="Avatar" class="image">
   <div class="overlay">
-    <img src="cheech2.jpg" height="42" width="42" alt="Avatar" class="image">
+    <img id = sadCheech" src="cheech2.jpg" height="42" width="42" alt="Avatar" class="image">
     <!-- <div class="text">Hello World</div>-->
   </div>
 </div>
